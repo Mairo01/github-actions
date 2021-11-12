@@ -1,7 +1,7 @@
 name: GitHub Actions
 on: [push]
 jobs:
-  Test with Jest:
+  Test-with-Jest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
